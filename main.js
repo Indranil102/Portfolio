@@ -93,7 +93,7 @@ document.querySelector('#app').innerHTML = `
         <h1 class="text-gray-950 dark:text-gray-100 text-5xl font-bold tracking-tight mb-10 ">Projects</h1><!-- commented text-center for having the text at left instead of center-->
         <div id="cards" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 px-4 sm:px-10 lg:px-20">
           <div id="block" class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-103 transition-transform">
-            <img class="p-4 rounded-3xl" src="./public/Screenshot 2025-01-05 222435.png" alt="Mech Shop">
+            <img class="p-4 rounded-3xl" src="/Screenshot 2025-01-05 222435.png" alt="Mech Shop">
             <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Shopper</h1>
             <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">
             Create a React.js eCommerce site with pages for clothing, cart, checkout, and profile. Ensure responsiveness and smooth navigation.
@@ -110,7 +110,7 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <div id="block" class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
-            <img class="p-4 rounded-3xl" src="./public/mech.png" alt="File Encryption Tool">
+            <img class="p-4 rounded-3xl" src="/mech.png" alt="File Encryption Tool">
             <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Mech Shop</h1>
             <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Build a React.js eCommerce site for men’s, women’s, and kids’ clothing with homepage, categories, cart, and checkout. Ensure responsive design and smooth navigation.</p>
             <div class="flex mt-4 mx-5 mb-5">
@@ -123,7 +123,7 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <div id="block" class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
-            <img class="p-4 rounded-3xl" src="./public/golf.png" alt="Golf Website">
+            <img class="p-4 rounded-3xl" src="/golf.png" alt="Golf Website">
             <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Golf Website</h1>
             <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Family Gold is a gold-themed website with GSAP animations enhancing the navbar, body, and elements. Built with HTML, CSS, and JavaScript.</p>
             <div class="flex mt-4 mx-5 mb-5">
