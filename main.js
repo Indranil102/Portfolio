@@ -207,14 +207,7 @@ document.querySelector('#app').innerHTML = `
   <h1 class="dark:text-gray-100 mb-16 text-5xl font-bold tracking-tight ">Contact</h1><!-- commented text-center for having the text at left instead of center-->
   <div id="block" class="flex justify-center items-center">
          <!--<form action="https://api.web3forms.com/submit" method="POST" class="w-full max-w-2xl lg:max-w-4xl"> this form is commented for removing captcha and to improve/change reponsivenes if needed switch back to it or it classes-->
-    <form
-  action="https://formspree.io/f/mvoejjvq"
-  method="POST"
->
-      <input type="hidden" name="access_key" value="ad73a3b2-ca2f-45bc-918a-5c642ff8ebf7" />
-      
-      <div class="dark:bg-zinc-900 bg-zinc-100 border-zinc-300 dark:border-zinc-700 border-solid border-2 p-4 rounded-xl shadow-lg">
-    </form>
+   
     <div class="md:w-full bg-zinc-200 dark:bg-zinc-800 text-gray-900 dark:text-gray-100 p-8 rounded-lg">
       <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
       <p class="mb-6">Fill up the form and send me your message or contact through below details</p>
