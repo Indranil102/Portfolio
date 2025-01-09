@@ -259,10 +259,10 @@ document.querySelector('#app').innerHTML = `
               <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f1f1f1" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" id="Vector"></path>
             </g>
           </g>
-        </svg><a href="https://drive.google.com/file/d/1Wz8X2S7QXcgQsNSmtMohm1zJOXeCGopH/view?usp=drive_link">
+        </svg><a href="">
         Resume</a>
         <div class="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
-          <a href="https://drive.google.com/file/d/1Wz8X2S7QXcgQsNSmtMohm1zJOXeCGopH/view?usp=drive_link">Resume</a>
+          <a href="https://drive.google.com/file/d/1Wz8X2S7QXcgQsNSmtMohm1zJOXeCGopH/view?usp=sharing">Resume</a>
         </div>
       </button>
       </div>
