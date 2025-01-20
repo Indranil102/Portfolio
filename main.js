@@ -249,9 +249,14 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="flex items-center ml-4 my-4">
     </div>
+
+    
+
+
+      <a href="https://drive.google.com/file/d/1igNQJvL20r2ICgBsLtLwHYH1oz-ss--3/view?usp=drive_link">
     <button class="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-lg hover:bg-opacity-70 transition font-semibold shadow-md">
-    <a href="https://drive.google.com/file/d/1igNQJvL20r2ICgBsLtLwHYH1oz-ss--3/view?usp=drive_link">
-        </a>
+  
+       
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px">
           <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
@@ -267,6 +272,8 @@ document.querySelector('#app').innerHTML = `
           <a href="https://drive.google.com/file/d/1igNQJvL20r2ICgBsLtLwHYH1oz-ss--3/view?usp=drive_link">Resume</a>
         </div>
       </button>
+
+       </a>
       </div>
   </div>
 </div>
