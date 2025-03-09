@@ -214,7 +214,7 @@ document.querySelector('#app').innerHTML = `
     
     <div class="md:w-full bg-zinc-200 dark:bg-zinc-800 text-gray-900 dark:text-gray-100 p-8 rounded-lg">
       <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-      <p class="mb-6">Fill up the form and send me your message or contact through below details</p>
+      
       <div class="flex items-center mb-4">
         <i class="fas fa-phone mr-4"></i>
         <span>+91 9407080822</span>
