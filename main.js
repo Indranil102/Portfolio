@@ -1,8 +1,8 @@
-import './style.css'
+import "./style.css";
 
-import Typed from 'typed.js'
+import Typed from "typed.js";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
  
 <div id="body" class="font-container px-4 sm:px-10 lg:px-20 bg-scroll">
 
@@ -58,7 +58,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <span id="typed" class="dark:text-gray-400"></span>
         <div class="max-w-screen-md mt-2 "><!-- commented mx-auto for having the text at left instead of center-->
-          <p class="text-gray-800 dark:text-gray-200 text-xl md:text-3xl tracking-tight">I am a dedicated Web Development student with a deep interest in AI, always looking for innovative solutions and creating engaging digital experiences.</p>
+          <p class="text-gray-800 dark:text-gray-200 text-xl md:text-3xl tracking-tight">Bridging web development and AI to build the next generation of digital products. Let's create something powerful, beautiful, and intelligent—together.</p>
         </div>
       </div>
       <div class=""><!-- commented text-center for having the text at left instead of center-->
@@ -264,10 +264,10 @@ document.querySelector('#app').innerHTML = `
               <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f1f1f1" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" id="Vector"></path>
             </g>
           </g>
-        </svg><a href="https://drive.google.com/file/d/1AvmvfRj1v5cbPM5YxxzK5kZksbCzjSlw/view">
+        </svg><a href="https://drive.google.com/file/d/1h6MrL7Jj_AxJHAjN2KaGdlFfrj9PlY10/view>
         Resume</a>
         <div class="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
-          <a href="https://drive.google.com/file/d/1AvmvfRj1v5cbPM5YxxzK5kZksbCzjSlw/view">Resume</a>
+          <a href="https://drive.google.com/file/d/1h6MrL7Jj_AxJHAjN2KaGdlFfrj9PlY10/view">Resume</a>
         </div>
       </button>
 
@@ -280,7 +280,7 @@ document.querySelector('#app').innerHTML = `
 </main>
 
 <div>
-<p class="dark:text-gray-100 font-semibold p-6 text-2xl flex justify-center tracking-tight">Developed by Indu</p>
+<p class="dark:text-gray-100 font-semibold p-6 text-2xl flex justify-center tracking-tight">Developed by Indranil</p>
 
 </div>
 
@@ -288,54 +288,54 @@ document.querySelector('#app').innerHTML = `
 
 
 
-`
-var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon')
-var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon')
+`;
+var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
+var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 
 // Change the icons inside the button based on previous settings
 if (
-  localStorage.getItem('color-theme') === 'dark' ||
-  (!('color-theme' in localStorage) &&
-    window.matchMedia('(prefers-color-scheme: dark)').matches)
+  localStorage.getItem("color-theme") === "dark" ||
+  (!("color-theme" in localStorage) &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
 ) {
-  themeToggleLightIcon.classList.remove('hidden')
+  themeToggleLightIcon.classList.remove("hidden");
 } else {
-  themeToggleDarkIcon.classList.remove('hidden')
+  themeToggleDarkIcon.classList.remove("hidden");
 }
 
-var themeToggleBtn = document.getElementById('theme-toggle')
+var themeToggleBtn = document.getElementById("theme-toggle");
 
-themeToggleBtn.addEventListener('click', function () {
+themeToggleBtn.addEventListener("click", function () {
   // toggle icons inside button
-  themeToggleDarkIcon.classList.toggle('hidden')
-  themeToggleLightIcon.classList.toggle('hidden')
+  themeToggleDarkIcon.classList.toggle("hidden");
+  themeToggleLightIcon.classList.toggle("hidden");
 
   // if set via local storage previously
-  if (localStorage.getItem('color-theme')) {
-    if (localStorage.getItem('color-theme') === 'light') {
-      document.documentElement.classList.add('dark')
-      localStorage.setItem('color-theme', 'dark')
+  if (localStorage.getItem("color-theme")) {
+    if (localStorage.getItem("color-theme") === "light") {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("color-theme", "dark");
     } else {
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem('color-theme', 'light')
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("color-theme", "light");
     }
 
     // if NOT set via local storage previously
   } else {
-    if (document.documentElement.classList.contains('dark')) {
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem('color-theme', 'light')
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("color-theme", "light");
     } else {
-      document.documentElement.classList.add('dark')
-      localStorage.setItem('color-theme', 'dark')
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("color-theme", "dark");
     }
   }
-})
-var typed = new Typed('#typed', {
-  stringsElement: '#typed-strings',
+});
+var typed = new Typed("#typed", {
+  stringsElement: "#typed-strings",
   backSpeed: 40,
-  typeSpeed: 60
-})
+  typeSpeed: 60,
+});
 /*
 document
   .getElementById('toggle-menu-button')
@@ -347,9 +347,9 @@ document
       menu.style.top = '0px'
     }
   })*/
-const toggleMenuButton = document.getElementById('toggle-menu-button')
-const menu = document.getElementById('menu')
+const toggleMenuButton = document.getElementById("toggle-menu-button");
+const menu = document.getElementById("menu");
 
-toggleMenuButton.addEventListener('click', () => {
-  menu.classList.toggle('hidden')
-})
+toggleMenuButton.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
