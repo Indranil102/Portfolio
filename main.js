@@ -30,6 +30,8 @@ document.querySelector("#app").innerHTML = `
         class="text-2xl p-3 font-sans align-middle font-bold leading-6 hover:white hover:bg-zinc-300  dark:hover:bg-zinc-800 rounded-md cursor-pointer text-gray-800 dark:text-gray-200">Skills</a>
       <a href="#Contact"
         class="text-2xl p-3 font-sans align-middle font-bold leading-6  hover:white hover:bg-zinc-300  dark:hover:bg-zinc-800 rounded-md cursor-pointer text-gray-800 dark:text-gray-200">Contact</a>
+        <a href="#Experience"
+        class="text-2xl p-3 font-sans align-middle font-bold leading-6  hover:white hover:bg-zinc-300  dark:hover:bg-zinc-800 rounded-md cursor-pointer text-gray-800 dark:text-gray-200">Experience</a>
       
 
       </ul>
@@ -87,6 +89,79 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
     </div>
+    
+        <section id="Experience" class="mt-20 mb-20 pt-8">
+  <div id="Experience">
+    <h1 class="text-gray-950 dark:text-gray-100 text-5xl font-bold tracking-tight mb-10">Experience</h1>
+
+    <!-- Flip Cards Grid -->
+    <div id="cards" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 px-4 sm:px-10 lg:px-5">
+
+      <!-- Card Template -->
+      <!-- Repeat for all cards -->
+      <!-- Card 1 -->
+      <div class="group relative h-64 [perspective:1200px]">
+        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <!-- Front -->
+          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
+            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Frontend Developer Intern</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">RentBro</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">Remote Internship</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">June 2024 – Aug 2024</p>
+          </div>
+
+          <!-- Back -->
+          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
+            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
+              Developed responsive UI components using React and Tailwind. Collaborated with backend teams and optimized design workflows for enhanced user engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="group relative h-64 [perspective:1200px]">
+        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <!-- Front -->
+          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
+            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">UI/UX Designer</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Lattofatto App</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">App Design Project</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">Feb 2024 – Apr 2024</p>
+          </div>
+
+          <!-- Back -->
+          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
+            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
+              Designed mobile-first UI using Figma with animations and prototype logic. Focused on intuitive user flows including login, menus, and navigation patterns.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="group relative h-64 [perspective:1200px]">
+        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <!-- Front -->
+          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700  group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
+            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">AI Project Developer</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">Provivo</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">Team Project</p>
+            <p class="text-gray-500 dark:text-gray-400 text-sm">July 2024 – Present</p>
+          </div>
+
+          <!-- Back -->
+          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
+            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
+              Built an NLP-based meeting scheduler with Django and React. Implemented chat parsing, time suggestions, and secure group authentication in a real-time system.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <section id="Projects" class="mt-20 mb-20 pt-8"><!-- added  py-10 for having the having section look better-->
       <div id="projects">
@@ -110,11 +185,11 @@ document.querySelector("#app").innerHTML = `
           </div>
 
           <div id="block" class="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white transform hover:scale-103 transition-transform">
-            <img class="p-4 rounded-3xl" src="/mech.png" alt="File Encryption Tool">
-            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Mech Shop</h1>
-            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Build a React.js eCommerce site for men’s, women’s, and kids’ clothing with homepage, categories, cart, and checkout. Ensure responsive design and smooth navigation.</p>
-            <div class="flex mt-4 mx-5 mb-5">
-              <a href="https://github.com/Indranil102/E-com.git" class="bg-gray-900 dark:bg-gray-100 items-center  text-white hover:scale-110 transition-transform transform dark:text-black flex gap-2 p-3 rounded-md font-medium">Github
+            <img class="p-4 rounded-3xl" src="/meeting.webp" alt="File Encryption Tool">
+            <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Meeting Scheduler</h1>
+            <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">AI-powered meeting scheduler using NLP to analyze group chats and suggest meetings. Built with React, Django, and SQLite3. Supports multiple authenticated groups where users can communicate and organize meetings manually</p>
+            <div class="flex mt-4 mx-7 mb-5">
+              <a href="https://github.com/Indranil102/provivo_aiml.git" class="bg-gray-900 dark:bg-gray-100 items-center  text-white hover:scale-110 transition-transform transform dark:text-black flex gap-2 p-3 rounded-md font-medium">Github
                 <svg class="fill-white dark:fill-black" width="22" height="22" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.49933 0.25C3.49635 0.25 0.25 3.49593 0.25 7.50024C0.25 10.703 2.32715 13.4206 5.2081 14.3797C5.57084 14.446 5.70302 14.2222 5.70302 14.0299C5.70302 13.8576 5.69679 13.4019 5.69323 12.797C3.67661 13.235 3.25112 11.825 3.25112 11.825C2.92132 10.9874 2.44599 10.7644 2.44599 10.7644C1.78773 10.3149 2.49584 10.3238 2.49584 10.3238C3.22353 10.375 3.60629 11.0711 3.60629 11.0711C4.25298 12.1788 5.30335 11.8588 5.71638 11.6732C5.78225 11.205 5.96962 10.8854 6.17658 10.7043C4.56675 10.5209 2.87415 9.89918 2.87415 7.12104C2.87415 6.32925 3.15677 5.68257 3.62053 5.17563C3.54576 4.99226 3.29697 4.25521 3.69174 3.25691C3.69174 3.25691 4.30015 3.06196 5.68522 3.99973C6.26337 3.83906 6.8838 3.75895 7.50022 3.75583C8.1162 3.75895 8.73619 3.83906 9.31523 3.99973C10.6994 3.06196 11.3069 3.25691 11.3069 3.25691C11.7026 4.25521 11.4538 4.99226 11.3795 5.17563C11.8441 5.68257 12.1245 6.32925 12.1245 7.12104C12.1245 9.9063 10.4292 10.5192 8.81452 10.6985C9.07444 10.9224 9.30633 11.3648 9.30633 12.0413C9.30633 13.0102 9.29742 13.7922 9.29742 14.0299C9.29742 14.2239 9.42828 14.4496 9.79591 14.3788C12.6746 13.4179 14.75 10.7025 14.75 7.50024C14.75 3.49593 11.5036 0.25 7.49933 0.25Z" fill-rule="evenodd" clip-rule="evenodd"></path>
                 </svg>
@@ -126,7 +201,7 @@ document.querySelector("#app").innerHTML = `
             <img class="p-4 rounded-3xl" src="/golf.png" alt="Golf Website">
             <h1 class="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">Golf Website</h1>
             <p class="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">Family Gold is a gold-themed website with GSAP animations enhancing the navbar, body, and elements. Built with HTML, CSS, and JavaScript.</p>
-            <div class="flex mt-4 mx-5 mb-5">
+            <div class="flex mt-4 mx-3 mb-5">
               
               <a href="https://github.com/Indranil102/golf_webite.git" class="bg-gray-900  items-center hover:scale-110 transition-transform transform dark:bg-gray-100 text-white dark:text-black flex gap-2 p-3 rounded-md font-medium ml-5">Github
                 <svg class="fill-white dark:fill-black" width="22" height="22" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
