@@ -90,78 +90,85 @@ document.querySelector("#app").innerHTML = `
       </div>
     </div>
     
-        <section id="Experience" class="mt-20 mb-20 pt-8">
-  <div id="Experience">
+      <!-- Experience Section (Full working accordion with arrow toggle + single-open behavior) -->
+<!-- Experience Section -->
+<section id="Experience" class="mt-20 mb-20 pt-8">
+  <div class="max-w-8xl mx-auto px-4 sm:px-1 lg:px-1">
     <h1 class="text-gray-950 dark:text-gray-100 text-5xl font-bold tracking-tight mb-10">Experience</h1>
 
-    <!-- Flip Cards Grid -->
-    <div id="cards" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 px-4 sm:px-10 lg:px-5">
+    <div id="experience-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-      <!-- Card Template -->
-      <!-- Repeat for all cards -->
       <!-- Card 1 -->
-      <div class="group relative h-64 [perspective:1200px]">
-        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-          <!-- Front -->
-          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
-            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Frontend Developer Intern</h2>
-            <p class="text-gray-600 dark:text-gray-400 text-sm">RentBro</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">Remote Internship</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">June 2024 – Aug 2024</p>
+      <div class="card bg-white dark:bg-black border border-gray-600 dark:border-gray-700 rounded-2xl shadow-xl overflow-hidden">
+        <button type="button" class="card-header w-full flex justify-between items-start p-6 text-left focus:outline-none"
+                aria-expanded="false">
+          <div>
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">AI/ML & Python Intern</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-xl">Emeelan Private Limited</p>
+            <div class="ml-[1px] flex justify-between items-center lg:gap-[120px] sm:gap-[50px] gap-[20px]">
+              <p class="text-gray-500 dark:text-gray-400 text-sm">Work from Home</p>
+              <p class="text-gray-500 dark:text-gray-400 text-sm">June 2025 – Ongoing</p>
+            </div>
           </div>
-
-          <!-- Back -->
-          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
-            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
-              Developed responsive UI components using React and Tailwind. Collaborated with backend teams and optimized design workflows for enhanced user engagement.
-            </p>
-          </div>
+          <svg class="arrow w-6 h-6 text-gray-700 dark:text-gray-200 transform transition-transform duration-300"
+               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="details px-6 pb-6 text-gray-800 dark:text-gray-200 text-[16px] leading-relaxed">
+          Developed a multi-user TTS platform allowing personalized custom voices for each user, storing generated audio in a secure database. Optimized processing to cut generation time by 30% and handle 100+ concurrent requests. Enhanced voice uniqueness by 100%, delivering scalable, high-quality audio for diverse real-time applications.
         </div>
       </div>
 
       <!-- Card 2 -->
-      <div class="group relative h-64 [perspective:1200px]">
-        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-          <!-- Front -->
-          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
-            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">UI/UX Designer</h2>
-            <p class="text-gray-600 dark:text-gray-400 text-sm">Lattofatto App</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">App Design Project</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">Feb 2024 – Apr 2024</p>
+      <div class="card bg-white dark:bg-black border border-gray-600 dark:border-gray-700 rounded-2xl shadow-xl overflow-hidden">
+        <button type="button" class="card-header w-full flex justify-between items-start p-6 text-left focus:outline-none"
+                aria-expanded="false">
+          <div>
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Software Developer Intern</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-xl">DevFrame Studio</p>
+            <div class="ml-[1px] flex justify-between items-center lg:gap-[120px] sm:gap-[50px] gap-[20px]">
+              <p class="text-gray-500 dark:text-gray-400 text-sm">Work from Home</p>
+              <p class="text-gray-500 dark:text-gray-400 text-sm">April 2025 – Ongoing</p>
+            </div>
           </div>
-
-          <!-- Back -->
-          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
-            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
-              Designed mobile-first UI using Figma with animations and prototype logic. Focused on intuitive user flows including login, menus, and navigation patterns.
-            </p>
-          </div>
+          <svg class="arrow w-6 h-6 text-gray-700 dark:text-gray-200 transform transition-transform duration-300"
+               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="details px-6 pb-6 text-gray-800 dark:text-gray-200 text-[16px] leading-relaxed">
+          Working as a Software Developer at Devframe, specializing in Shopify Hydrogen, GraphQL, and Framer. Built and optimized storefronts, improving load times by 25% and enhancing conversion rates by 15%. Delivered pixel-perfect UI designs, integrated dynamic data queries, and collaborated across teams to deploy scalable, high-performance e-commerce solutions.
         </div>
       </div>
 
       <!-- Card 3 -->
-      <div class="group relative h-64 [perspective:1200px]">
-        <div class="relative h-full w-full transition-transform duration-700 ease-in-out [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-          <!-- Front -->
-          <div class="absolute inset-0 bg-white dark:bg-black border border-gray-600 dark:border-gray-700  group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [backface-visibility:hidden] [transform:rotateY(0deg)] [transform-style:preserve-3d]">
-            <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">AI Project Developer</h2>
-            <p class="text-gray-600 dark:text-gray-400 text-sm">Provivo</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">Team Project</p>
-            <p class="text-gray-500 dark:text-gray-400 text-sm">July 2024 – Present</p>
+     <div class="card bg-white dark:bg-black border border-gray-600 dark:border-gray-700 rounded-2xl shadow-xl overflow-hidden">
+        <button type="button" class="card-header w-full flex justify-between items-start p-6 text-left focus:outline-none"
+                aria-expanded="false">
+          <div>
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Frontend Developer</h2>
+            <p class="text-gray-600 dark:text-gray-400 text-xl">MLP Techster</p>
+            <div class="ml-[1px] flex justify-between items-center lg:gap-[100px] sm:gap-[50px] gap-[20px]">
+              <p class="text-gray-500 dark:text-gray-400 text-sm">Work from Home</p>
+              <p class="text-gray-500 dark:text-gray-400 text-sm">January 2025 – June 2025</p>
+            </div>
           </div>
-
-          <!-- Back -->
-          <div class="absolute inset-0 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] rounded-2xl p-6 shadow-xl transition-all duration-500 [transform:rotateY(180deg)] [backface-visibility:hidden] [transform-style:preserve-3d]">
-            <p class="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">
-              Built an NLP-based meeting scheduler with Django and React. Implemented chat parsing, time suggestions, and secure group authentication in a real-time system.
-            </p>
-          </div>
+          <svg class="arrow w-6 h-6 text-gray-700 dark:text-gray-200 transform transition-transform duration-300"
+               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="details px-6 pb-6 text-gray-800 dark:text-gray-200 text-[16px] leading-relaxed">
+         Designed a modern, user-friendly website interface for MLP Techster using Figma, focusing on visual appeal and intuitive navigation. Additionally, developed and deployed a fully functional website for LRC, ensuring responsive design, optimized performance, and cross-browser compatibility to enhance user experience and meet organizational branding and functional requirements.
         </div>
       </div>
 
     </div>
   </div>
 </section>
+
+
 
     <section id="Projects" class="mt-20 mb-20 pt-8"><!-- added  py-10 for having the having section look better-->
       <div id="projects">
@@ -368,6 +375,58 @@ var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
 var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 
 // Change the icons inside the button based on previous settings
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+  let openIndex = null; // Track the currently open card index
+
+  // Collapse all details initially
+  cards.forEach((card) => {
+    const details = card.querySelector(".details");
+    details.style.maxHeight = "0px";
+    details.style.overflow = "hidden";
+    details.style.transition = "max-height 0.35s ease";
+  });
+
+  function closeCard(card) {
+    const details = card.querySelector(".details");
+    const arrow = card.querySelector(".arrow");
+    details.style.maxHeight = "0px";
+    arrow.classList.remove("rotate-180");
+    card.classList.remove("open");
+    card.querySelector(".card-header").setAttribute("aria-expanded", "false");
+  }
+
+  function openCard(card) {
+    const details = card.querySelector(".details");
+    const arrow = card.querySelector(".arrow");
+    details.style.maxHeight = details.scrollHeight + "px";
+    arrow.classList.add("rotate-180");
+    card.classList.add("open");
+    card.querySelector(".card-header").setAttribute("aria-expanded", "true");
+  }
+
+  cards.forEach((card, index) => {
+    const arrow = card.querySelector(".arrow");
+
+    arrow.addEventListener("click", (e) => {
+      e.stopPropagation();
+
+      if (openIndex === index) {
+        // If this card is already open, close it
+        closeCard(card);
+        openIndex = null;
+      } else {
+        // Close previously open card
+        if (openIndex !== null) {
+          closeCard(cards[openIndex]);
+        }
+        // Open the clicked card
+        openCard(card);
+        openIndex = index;
+      }
+    });
+  });
+});
 if (
   localStorage.getItem("color-theme") === "dark" ||
   (!("color-theme" in localStorage) &&
@@ -411,6 +470,7 @@ var typed = new Typed("#typed", {
   backSpeed: 40,
   typeSpeed: 60,
 });
+
 /*
 document
   .getElementById('toggle-menu-button')

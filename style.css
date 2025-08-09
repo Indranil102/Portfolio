@@ -12,6 +12,19 @@
     scale: 1;
   }
 }
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  border-color: white !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Glow when active (clicked) */
+.card.active {
+  border-color: white !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
 .font-container {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
